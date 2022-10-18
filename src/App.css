@@ -77,12 +77,24 @@ a {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: rgb(121, 121, 121);
-  margin: 30px;
-  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
 }
 
 .content-header {
   color: rgb(0, 0, 0);
   text-transform: capitalize;
+}
+
+.svgA {
+  width: 40%;
+  margin: 2rem 0;
+
+  
+  transform: perspective(3000px) rotateY(5deg);
+
+  transition: transform 1s ease 0s;
+
+}
+.svgA:hover {
+  transform: perspective(1500px) rotateY(15deg);
 }
