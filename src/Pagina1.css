@@ -1,0 +1,51 @@
+.Titulo {
+    position: relative;
+    width: 518px;
+    height: 48px;
+    left: 161px;
+    top: 130px;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+}
+.Linha1{
+    position: relative;
+    width: 518px;
+    height: 48px;
+    left: 161px;
+    top: 130px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+.Linha2{
+    position: relative;
+    width: 518px;
+    height: 48px;
+    left: 161px;
+    top: 120px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+.Linha3{
+    position: relative;
+    width: 518px;
+    height: 48px;
+    left: 161px;
+    top: 115px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+.svgA {
+    width: 40%;
+    float: right;
+    margin-top: -10%;
+
+
+    transform: perspective(3000px) rotateY(5deg);
+
+    transition: transform 1s ease 0s;
+
+}
+
+.svgA:hover {
+    transform: perspective(1500px) rotateY(15deg);
+}

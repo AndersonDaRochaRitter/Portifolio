@@ -1,7 +1,7 @@
 import "./App.css";
 import React from 'react';
 import { Link } from "react-scroll";
-import img1 from '../src/img/SvgAnimação.svg'
+import Pagina1 from './Pagina1.js';
 
 function IrAoTopo() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -62,7 +62,7 @@ function App() {
             <h1 className="content-header" id={menu.title} >
               {(() => {
                 switch (menu.title) {
-                  case "PAG1": return "a";
+                  case "PAG1": return <Pagina1/>;
                   case "PAG2": return "b";
                   case "PAG3": return "c";
                   case "PAG4": return "d";
@@ -74,10 +74,7 @@ function App() {
 
 
 
-        <div className="svgA">
-          <img className="svgA" src={img1} alt={"Ilustração representando um hacker sentado mexendo no notebook."} data-tilt={""} />
-        </div>
-
+       
       </main>
 
 

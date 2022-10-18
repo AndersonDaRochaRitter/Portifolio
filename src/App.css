@@ -5,6 +5,7 @@ header {
   position: -webkit-sticky;/* Necessário para funcionar no Safari */
   position: sticky;
   top: 0;
+
   box-shadow: rgba(80, 79, 79, 0.25) 0px 54px 55px, rgba(80, 79, 79, 0.25) 0px -12px 30px, rgba(80, 79, 79, 0.25) 0px 4px 6px, rgba(80, 79, 79, 0.25) 0px 12px 13px, rgba(80, 79, 79, 0.25) 0px -3px 5px;
 }
 
@@ -85,16 +86,8 @@ a {
   text-transform: capitalize;
 }
 
-.svgA {
-  width: 40%;
-  margin: 2rem 0;
 
-  
-  transform: perspective(3000px) rotateY(5deg);
-
-  transition: transform 1s ease 0s;
-
-}
-.svgA:hover {
-  transform: perspective(1500px) rotateY(15deg);
+@font-face {
+  font-family: 'Faustina';
+  src: local('Faustina'), url(./fonts/Faustina-Regular.ttf) format('truetype');
 }
